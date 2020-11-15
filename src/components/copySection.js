@@ -55,7 +55,7 @@ function CopySection() {
       y: '20px',
       duration: 1,
       ease: 'power3.out',
-      delay: 2.5
+      delay: 2
     })
   })
 

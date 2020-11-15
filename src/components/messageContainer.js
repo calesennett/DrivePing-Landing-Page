@@ -20,7 +20,7 @@ function MessageContainer() {
       duration: 1,
       stagger: 1.5,
       ease: 'expo',
-      delay: 2,
+      delay: 2.5,
       loop: true
     })
   })

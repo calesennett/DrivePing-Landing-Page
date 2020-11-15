@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Sohne';
+  src: url("../fonts/Sohne-Buch.woff2") format("woff2"),
+       url("../fonts/Sohne-Buch.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'Sohne';
+  src: url("../fonts/Sohne-Halbfett.woff2") format("woff2"),
+       url("../fonts/Sohne-Halbfett.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap
+}

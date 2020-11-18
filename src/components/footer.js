@@ -4,6 +4,10 @@ import React, {
 } from "react"
 
 import {
+  Link as GatsbyLink
+} from 'gatsby';
+
+import {
   Grid,
   Text,
   Container,
@@ -54,6 +58,41 @@ function Footer() {
             thrdhnd.
           </Link>
           Seattle, WA.
+
+          <GatsbyLink
+            to='/privacy-policy'
+            style={{
+              textDecoration: 'none',
+              display: 'inline-block'
+            }}>
+            <Text
+              sx={{
+                px: 1,
+                color: 'primary',
+                fontWeight: 'bold',
+                fontSize: 1,
+                textAlign: 'center'
+              }}>
+              Privacy Policy.
+            </Text>
+          </GatsbyLink>
+
+          <GatsbyLink
+            to='/disclaimer'
+            style={{
+              textDecoration: 'none',
+              display: 'inline-block'
+            }}>
+            <Text
+              sx={{
+                color: 'primary',
+                fontWeight: 'bold',
+                fontSize: 1,
+                textAlign: 'center'
+              }}>
+              Disclaimer.
+            </Text>
+          </GatsbyLink>
         </Text>
       </Grid>
     </Container>

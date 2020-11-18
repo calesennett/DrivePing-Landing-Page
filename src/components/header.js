@@ -3,6 +3,9 @@ import React, {
   useEffect
 } from "react"
 import logo from '../images/drive_ping.png';
+import {
+  Link
+} from 'gatsby';
 
 import {
   Grid,
@@ -37,7 +40,10 @@ function Header() {
         sx={{
           alignItems: 'center'
         }}>
-        <Image width='100' src={logo} />
+        <Link
+          to='/'>
+          <Image width='100' src={logo} />
+        </Link>
         <Box
           sx={{
             justifySelf: 'end'

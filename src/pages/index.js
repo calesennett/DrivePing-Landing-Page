@@ -10,7 +10,6 @@ import SEO from "../components/seo"
 import Header from '../components/header';
 import CopySection from '../components/copySection';
 import Footer from '../components/footer';
-import '../components/fonts.css';
 
 const IndexPage = () => (
   <ThemeProvider

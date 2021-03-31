@@ -33,7 +33,7 @@ function MessageContainer() {
       }}>
       <Grid
         gap={2}
-        columns={'1fr 3fr'}
+        columns={'1fr 4fr'}
         sx={{
           py: 2
         }}>

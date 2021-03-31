@@ -5,8 +5,8 @@ export default {
     secondary: '#f1f0f0'
   },
   fonts: {
-    body: 'Sohne, sans-serif',
-    heading: 'Sohne, sans-serif'
+    body: '-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif',
+    heading: '-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif'
   },
   sizes: {
     container: 960
